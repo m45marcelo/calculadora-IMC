@@ -1,5 +1,5 @@
 import TableClassification from "../TableClassification/TableClassification.component";
-import "./Resulttable.styles.scss";
+import "./ResultTable.styles.scss";
 
 const ResultTable = ({ inputsConfirm, valueAltura, valuePeso }) => {
     const pesoNumber = Number(valuePeso);
