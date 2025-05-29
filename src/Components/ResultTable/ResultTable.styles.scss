@@ -1,0 +1,48 @@
+.resultTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    color: #444;
+}
+
+.resultTable th,td {
+    padding: 1.2rem;
+}
+
+.resultTable thead tr {
+    border-bottom: 0.2rem solid #f06292;
+}
+
+.resultTable th {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.resultTable td{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.containerMessage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    font-size: 1.8rem;
+    color: #ABABAB;
+    font-weight: 400;
+    max-width: 23.5rem;
+    width: 100%;
+    text-align: center;
+    @media (max-width: 499px) {
+        font-size: 1.4rem;
+    }
+}
+
+.tableContainer{
+    display: grid;
+    gap: 3.5rem;
+}
